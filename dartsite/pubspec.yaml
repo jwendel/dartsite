@@ -1,0 +1,4 @@
+name: dartsite
+description: Generate a static website from a collection of files.
+dependencies:
+  yaml: any
