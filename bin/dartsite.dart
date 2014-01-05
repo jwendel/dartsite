@@ -1,5 +1,9 @@
 import 'package:args/args.dart';
 
+void log(var message) {
+
+}
+
 void main(List<String> args) {
   ArgParser parser = new ArgParser();
   parser.addFlag("add", abbr: "a");
@@ -7,4 +11,7 @@ void main(List<String> args) {
 
   List<String> files = result.rest;
   print(files);
+
+
 }
+
